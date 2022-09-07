@@ -11,25 +11,27 @@
         mystore.name = Console.ReadLine();
         Console.Write("Please input Registered Value: ");
         mystore.value = int.Parse(Console.ReadLine());
-       
+               
         PrintStoreinformation(mystore);
         
         BankFast Mymoney = new BankFast();
-        Console.Write("Please input money: ");
-        BankFast.money = double.Parse(Console.ReadLine()); 
-        Mymoney.bank1000();
-        Mymoney.bank500();
-        Mymoney.bank100(); 
-        Mymoney.bank50();
-        Mymoney.bank20();
-        Mymoney.bank10();
-        Mymoney.bank2();
-        Mymoney.bank1();
-        Mymoney.bank050();
-        Mymoney.bank025();
+        Mymoney.inputvariable();
+        PrintMoneyinformation(Mymoney);
 
-        
-    }      
+    }     
+    static void PrintMoneyinformation(BankFast mymoney1)
+    {      
+        Console.WriteLine("1000: {0:F}",BankFast.bank1000(ref mymoney1.money));
+        Console.WriteLine("500: {0:F}",BankFast.bank500(ref mymoney1.money));
+        Console.WriteLine("100: {0:F}",BankFast.bank100(ref mymoney1.money));
+        Console.WriteLine("50: {0:F}",BankFast.bank50(ref mymoney1.money));
+        Console.WriteLine("20: {0:F}",BankFast.bank20(ref mymoney1.money));
+        Console.WriteLine("10: {0:F}",BankFast.bank10(ref mymoney1.money));
+        Console.WriteLine("2: {0:F}",BankFast.bank2(ref mymoney1.money));
+        Console.WriteLine("1: {0:F}",BankFast.bank1(ref mymoney1.money));
+        Console.WriteLine("0.50: {0:F}",BankFast.bank050(ref mymoney1.money));
+        Console.WriteLine("0.25: {0:F}",BankFast.bank025(ref mymoney1.money));
+    }
     
     static void PrintStoreinformation(Data mystore1)
     {
