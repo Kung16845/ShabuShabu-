@@ -1,0 +1,15 @@
+C:\Users\k\desktop\shabu\obj\Debug\net6.0\ShaBu.csproj.AssemblyReference.cache
+C:\Users\k\desktop\shabu\obj\Debug\net6.0\ShaBu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k\desktop\shabu\obj\Debug\net6.0\ShaBu.AssemblyInfoInputs.cache
+C:\Users\k\desktop\shabu\obj\Debug\net6.0\ShaBu.AssemblyInfo.cs
+C:\Users\k\desktop\shabu\obj\Debug\net6.0\ShaBu.csproj.CoreCompileInputs.cache
+C:\Users\k\Desktop\ShaBu\bin\Debug\net6.0\ShaBu.exe
+C:\Users\k\Desktop\ShaBu\bin\Debug\net6.0\ShaBu.deps.json
+C:\Users\k\Desktop\ShaBu\bin\Debug\net6.0\ShaBu.runtimeconfig.json
+C:\Users\k\Desktop\ShaBu\bin\Debug\net6.0\ShaBu.dll
+C:\Users\k\Desktop\ShaBu\bin\Debug\net6.0\ShaBu.pdb
+C:\Users\k\Desktop\ShaBu\obj\Debug\net6.0\ShaBu.dll
+C:\Users\k\Desktop\ShaBu\obj\Debug\net6.0\refint\ShaBu.dll
+C:\Users\k\Desktop\ShaBu\obj\Debug\net6.0\ShaBu.pdb
+C:\Users\k\Desktop\ShaBu\obj\Debug\net6.0\ShaBu.genruntimeconfig.cache
+C:\Users\k\Desktop\ShaBu\obj\Debug\net6.0\ref\ShaBu.dll
