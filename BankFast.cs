@@ -66,10 +66,4 @@ public class BankFast
         Console.WriteLine(".25: {0:F0}",Math.Floor(number));
     }
 
-    public static double bank3000() 
-    {
-        number = money / 0.25;
-        money = money % 0.25;
-        return number;
-    }
 }
