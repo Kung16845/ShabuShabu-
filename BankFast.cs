@@ -1,14 +1,14 @@
 public class BankFast 
 {
-    public double money = 0;
-    public double number = 0;
-    
-    public void inputvariable()
-    {
-        Console.Write("Please input money: ");
-        money = double.Parse(Console.ReadLine());
-    }
+    private double money = 0;
+    private double number;
 
+    public BankFast(double money,double number)
+    {
+        this.number = number;
+        this.money = money;
+    }
+    
     public static double bank1000(ref double money,double number) 
     {                
         number = money / 1000;
@@ -63,10 +63,24 @@ public class BankFast
         money = money % 0.50;
         return Math.Floor(number);
     }
-    public static double bank025(ref double money,double number) 
+    public static double bank025( ref double money,double number) 
     {                
         number = money / 0.25;
         money = money % 0.25;
         return Math.Floor(number);
+    }
+
+    public void PrintMoneyinformation()
+    {      
+        Console.WriteLine("1000: {0:F}",BankFast.bank1000(ref money,number));
+        Console.WriteLine("500: {0:F}",BankFast.bank500(ref money,number));
+        Console.WriteLine("100: {0:F}",BankFast.bank100(ref money,number));
+        Console.WriteLine("50: {0:F}",BankFast.bank50(ref money,number));
+        Console.WriteLine("20: {0:F}",BankFast.bank20(ref money,number));
+        Console.WriteLine("10: {0:F}",BankFast.bank10(ref money,number));
+        Console.WriteLine("2: {0:F}",BankFast.bank2(ref money,number));
+        Console.WriteLine("1: {0:F}",BankFast.bank1(ref money,number));
+        Console.WriteLine("0.50: {0:F}",BankFast.bank050(ref money,number));
+        Console.WriteLine("0.25: {0:F}",BankFast.bank025(ref money,number));
     }
 }
